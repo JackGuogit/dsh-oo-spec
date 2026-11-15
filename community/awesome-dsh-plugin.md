@@ -1,22 +1,21 @@
-# Listing this plugin in the DSH plugin community
+﻿# Listing this plugin in the DSH plugin community
 
 The community list is [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin). Adding one line there is what makes the plugin show up on <https://awesome-dsh-plugin.com> and inside the plugin market's Discover tab; both are generated from that list.
 
 ## The line to add
 
-Category **Skills** (`### Skills`), inserted alphabetically by `owner/repo` — between the `J…` and `L…` entries when sorted case-insensitively.
+Category **Skills** (`### Skills`), inserted alphabetically by `owner/repo` 鈥?between the `J鈥 and `L鈥 entries when sorted case-insensitively.
 
 `README.md` (English):
 
 ```markdown
-- [JackGuogit/dsh-oo-spec](https://github.com/JackGuogit/dsh-oo-spec) - Turns the four-gate object-oriented design method into an enforceable workflow: one skill routes requirement, domain, design and implementation work to nine judgement cards, and five tools search the bundled spec, read a card, look up original-text anchors, build the ≤5-question block complete with defaults, and check a deliverable's slots, use cases, relation multiplicities, change windows and design↔code class parity with line-number evidence; a composer control opens the whole spec in-app. The gate checks are text heuristics, not a parser.
+- [JackGuogit/dsh-oo-spec](https://github.com/JackGuogit/dsh-oo-spec) - Turns the four-gate object-oriented design method into an enforceable workflow: one skill routes requirement, domain, design and implementation work to nine judgement cards, and five tools search the bundled spec, read a card, look up original-text anchors, build the 鈮?-question block complete with defaults, and check a deliverable's slots, use cases, relation multiplicities, change windows and design鈫攃ode class parity with line-number evidence; a composer control opens the whole spec in-app. The gate checks are text heuristics, not a parser.
 ```
 
 `README.zh.md`:
 
 ```markdown
-- [JackGuogit/dsh-oo-spec](https://github.com/JackGuogit/dsh-oo-spec) - 把面向对象四段流程（需求→领域→设计→实现）的闸门与九张判定卡做成可执行工作流：一个 skill 按任务路由到卡片，五个工具负责检索规范、读卡、取原文锚点、生成 ≤5 题合规提问块、并按判据核对交付物的槽位/用例/重数/变化时间窗与设计↔代码类集合一致性（带行号证据）；输入框工具行的按钮可直接翻开全文。检查为文本启发式，并非语法解析。
-```
+- [JackGuogit/dsh-oo-spec](https://github.com/JackGuogit/dsh-oo-spec) - 鎶婇潰鍚戝璞″洓娈垫祦绋嬶紙闇€姹傗啋棰嗗煙鈫掕璁♀啋瀹炵幇锛夌殑闂搁棬涓庝節寮犲垽瀹氬崱鍋氭垚鍙墽琛屽伐浣滄祦锛氫竴涓?skill 鎸変换鍔¤矾鐢卞埌鍗＄墖锛屼簲涓伐鍏疯礋璐ｆ绱㈣鑼冦€佽鍗°€佸彇鍘熸枃閿氱偣銆佺敓鎴?鈮? 棰樺悎瑙勬彁闂潡銆佸苟鎸夊垽鎹牳瀵逛氦浠樼墿鐨勬Ы浣?鐢ㄤ緥/閲嶆暟/鍙樺寲鏃堕棿绐椾笌璁捐鈫斾唬鐮佺被闆嗗悎涓€鑷存€э紙甯﹁鍙疯瘉鎹級锛涜緭鍏ユ宸ュ叿琛岀殑鎸夐挳鍙洿鎺ョ炕寮€鍏ㄦ枃銆傛鏌ヤ负鏂囨湰鍚彂寮忥紝骞堕潪璇硶瑙ｆ瀽銆?```
 
 ## Steps
 
@@ -34,17 +33,17 @@ git push origin add-dsh-oo-spec
 Reviewer checks, so they are already satisfied here:
 
 - `dsh plugin add` works: `dsh.bundle.patch` is declared and the row id is `oo-spec`.
-- The description matches the source: one skill, five tools, one UI control — nothing else is registered.
+- The description matches the source: one skill, five tools, one UI control 鈥?nothing else is registered.
 - The plugin is maintained in this repository, MIT licensed, with source, tests (`npm test`) and the packaged file list in `files`.
 
 ## Before the PR
 
 ```sh
-git tag v1.0.0 && git push origin v1.0.0
+git tag v1.0.1 && git push origin v1.0.1
 ```
 
 `.github/workflows/release.yml` then packs the tarball and publishes it as a release asset, so a listing reviewer can install the same bytes the market would use:
 
 ```sh
-dsh plugin --profile <profile> add https://github.com/JackGuogit/dsh-oo-spec/releases/download/v1.0.0/dsh-oo-spec-1.0.0.tgz
+dsh plugin --profile <profile> add https://github.com/JackGuogit/dsh-oo-spec/releases/download/v1.0.1/dsh-oo-spec-1.0.0.tgz
 ```
