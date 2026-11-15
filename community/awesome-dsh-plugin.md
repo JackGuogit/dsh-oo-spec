@@ -1,4 +1,4 @@
-﻿# Listing this plugin in the DSH plugin community
+# Listing this plugin in the DSH plugin community
 
 The community list is [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin). Adding one line there is what makes the plugin show up on <https://awesome-dsh-plugin.com> and inside the plugin market's Discover tab; both are generated from that list.
 
@@ -39,11 +39,11 @@ Reviewer checks, so they are already satisfied here:
 ## Before the PR
 
 ```sh
-git tag v1.0.1 && git push origin v1.0.1
+git tag v1.0.2 && git push origin v1.0.2
 ```
 
 `.github/workflows/release.yml` then packs the tarball and publishes it as a release asset, so a listing reviewer can install the same bytes the market would use:
 
 ```sh
-dsh plugin --profile <profile> add https://github.com/JackGuogit/dsh-oo-spec/releases/download/v1.0.1/dsh-oo-spec-1.0.0.tgz
+dsh plugin --profile <profile> add https://github.com/JackGuogit/dsh-oo-spec/releases/download/v1.0.2/dsh-oo-spec-1.0.0.tgz
 ```

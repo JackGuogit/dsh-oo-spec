@@ -1,6 +1,6 @@
-﻿{
+{
   "name": "dsh-oo-spec",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "OO design spec for DeepSeek Harness: a skill that routes requirement 鈫?domain 鈫?design 鈫?implementation through four gates and nine judgement cards, five tools that search, read, anchor, and mechanically check a deliverable, and an in-app spec browser.",
   "type": "module",
   "license": "MIT",
