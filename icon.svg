@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="OO spec: four gates and a passed check">
+  <rect x="1.5" y="1.5" width="33" height="33" rx="9" fill="#1f6feb"/>
+  <g fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linejoin="round" opacity="0.62">
+    <rect x="6.5" y="6.5" width="23" height="23" rx="4"/>
+    <rect x="10.5" y="10.5" width="15" height="15" rx="2.5"/>
+  </g>
+  <path d="M13.6 18.6l2.7 2.7 6.1-6.4" fill="none" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

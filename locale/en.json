@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "OO spec",
+    "description": "Runs requirement, domain, design, and implementation work through four gates and nine judgement cards, checks a deliverable against them, and browses the whole spec in-app.",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,38 @@
+name: release
+
+# A tag creates the prebuilt tarball the plugin market prefers for GitHub-only
+# plugins, so `dsh plugin add` never has to build anything locally.
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Test
+        run: |
+          node scripts/selftest.mjs
+          node scripts/client-smoke.mjs
+      - name: Pack
+        run: npm pack --pack-destination dist
+      - name: Verify packed file list
+        run: |
+          tar -tzf dist/*.tgz | sed 's|^package/||' | sort > /tmp/packed.txt
+          for f in index.js client.js cordis.patch.yml icon.svg lib/tools.js spec/00-constitution.md locale/zh.json docs/DETAIL.md; do
+            grep -qx "$f" /tmp/packed.txt || { echo "missing from tarball: $f"; exit 1; }
+          done
+      - name: Release
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release create "$GITHUB_REF_NAME" dist/*.tgz --title "$GITHUB_REF_NAME" --generate-notes

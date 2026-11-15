@@ -1,0 +1,4 @@
+- insert:
+    - id: oo-spec
+      name: 'dsh-oo-spec'
+      config: {}

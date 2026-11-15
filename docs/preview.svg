@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="640" viewBox="0 0 1040 640" role="img" aria-label="The OO spec browser overlay: a document list on the left and the constitution text on the right">
+  <rect width="1040" height="640" fill="#0f1216"/>
+  <rect x="24" y="24" width="992" height="592" rx="14" fill="#171b21" stroke="#2a313b"/>
+  <rect x="24" y="24" width="992" height="62" rx="14" fill="#1c2129"/>
+  <text x="48" y="52" fill="#e7ecf3" font-family="Segoe UI, sans-serif" font-size="17" font-weight="600">OO 设计规范</text>
+  <text x="48" y="72" fill="#8b97a8" font-family="Segoe UI, sans-serif" font-size="12">宪法 · 四道闸门 · 九张判定卡 · 24 道评测</text>
+  <rect x="472" y="38" width="404" height="32" rx="9" fill="#11151a" stroke="#2a313b"/>
+  <text x="488" y="59" fill="#6f7b8b" font-family="Segoe UI, sans-serif" font-size="12">搜索：内聚 / 时间窗 / 5W1H8C / 模式</text>
+  <text x="944" y="60" fill="#8b97a8" font-family="Segoe UI, sans-serif" font-size="20">×</text>
+  <line x1="288" y1="86" x2="288" y2="576" stroke="#2a313b"/>
+  <text x="48" y="112" fill="#6f7b8b" font-family="Segoe UI, sans-serif" font-size="10">宪法与闸门</text>
+  <rect x="36" y="122" width="236" height="28" rx="6" fill="#232a33"/>
+  <text x="52" y="141" fill="#e7ecf3" font-family="Segoe UI, sans-serif" font-size="12.5" font-weight="600">00 · 宪法（L0，12 条）</text>
+  <text x="52" y="176" fill="#9aa6b6" font-family="Segoe UI, sans-serif" font-size="12.5">10 · 流程闸门（L1）</text>
+  <text x="52" y="202" fill="#9aa6b6" font-family="Segoe UI, sans-serif" font-size="12.5">规范包 README / 路由表</text>
+  <text x="48" y="234" fill="#6f7b8b" font-family="Segoe UI, sans-serif" font-size="10">判定卡 C01–C09</text>
+  <text x="52" y="258" fill="#9aa6b6" font-family="Segoe UI, sans-serif" font-size="12.5">C01 需求 5W1H8C</text>
+  <text x="52" y="282" fill="#9aa6b6" font-family="Segoe UI, sans-serif" font-size="12.5">C02 用例</text>
+  <text x="52" y="306" fill="#9aa6b6" font-family="Segoe UI, sans-serif" font-size="12.5">C03 领域名词</text>
+  <text x="52" y="330" fill="#9aa6b6" font-family="Segoe UI, sans-serif" font-size="12.5">C05 内聚测试</text>
+  <text x="52" y="354" fill="#9aa6b6" font-family="Segoe UI, sans-serif" font-size="12.5">C07 SOLID 与 NOP</text>
+  <text x="52" y="378" fill="#9aa6b6" font-family="Segoe UI, sans-serif" font-size="12.5">C08 模式选型</text>
+  <text x="48" y="410" fill="#6f7b8b" font-family="Segoe UI, sans-serif" font-size="10">查表 / 反例 / 评测 / 锚点</text>
+  <text x="52" y="434" fill="#9aa6b6" font-family="Segoe UI, sans-serif" font-size="12.5">内聚分级表</text>
+  <text x="52" y="458" fill="#9aa6b6" font-family="Segoe UI, sans-serif" font-size="12.5">变化 → 模式对照表</text>
+  <text x="52" y="482" fill="#9aa6b6" font-family="Segoe UI, sans-serif" font-size="12.5">黄金链路 · 三组反例</text>
+  <text x="312" y="122" fill="#e7ecf3" font-family="Segoe UI, sans-serif" font-size="19" font-weight="600">00 · 宪法（L0，12 条）</text>
+  <rect x="312" y="138" width="676" height="1" fill="#2a313b"/>
+  <text x="312" y="166" fill="#c7d0dc" font-family="Segoe UI, sans-serif" font-size="13">生效范围：所有设计、编码、评审、需求分析任务。冲突时本文件优先于卡片的建议。</text>
+  <text x="312" y="204" fill="#e7ecf3" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600">1. 先定输入，再产出</text>
+  <text x="312" y="226" fill="#c7d0dc" font-family="Segoe UI, sans-serif" font-size="12.5">任何设计或代码产出前，必须能指出它对应哪条用例编号。指不出来 → 停下提问。</text>
+  <text x="312" y="246" fill="#8b97a8" font-family="Segoe UI, sans-serif" font-size="12">判定：交付物首行有 依据: UC-xx。无 → 违反。</text>
+  <text x="312" y="284" fill="#e7ecf3" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600">2. 不编造业务规则</text>
+  <text x="312" y="306" fill="#c7d0dc" font-family="Segoe UI, sans-serif" font-size="12.5">缺口处写 TODO(BLOCKING:"要问什么") 或标 ASSUMED；行业惯例不得当客户需求。</text>
+  <text x="312" y="344" fill="#e7ecf3" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600">4. 缺口三态制</text>
+  <text x="312" y="366" fill="#c7d0dc" font-family="Segoe UI, sans-serif" font-size="12.5">5W1H8C 共 14 槽，每槽必须落为 KNOWN / ASSUMED / UNKNOWN 之一。</text>
+  <text x="312" y="386" fill="#8b97a8" font-family="Segoe UI, sans-serif" font-size="12">UNKNOWN 且 B 级 → 闸门不通过，禁止进入下一阶段。</text>
+  <text x="312" y="424" fill="#e7ecf3" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600">8. 抽象必须有变化时间窗</text>
+  <text x="312" y="446" fill="#c7d0dc" font-family="Segoe UI, sans-serif" font-size="12.5">"未来可能变"不算理由：互联网 ≈ 半年 / 电信 ≈ 1 年 / 金融 ≈ 2 年 / 政府 ≈ 3 年。</text>
+  <text x="312" y="484" fill="#e7ecf3" font-family="Segoe UI, sans-serif" font-size="14" font-weight="600">12. 提问有规格</text>
+  <text x="312" y="506" fill="#c7d0dc" font-family="Segoe UI, sans-serif" font-size="12.5">一次 ≤5 题、按阻塞度降序、每题给推荐答案 + 理由 + 选错的后果；禁止开放式提问。</text>
+  <line x1="24" y1="576" x2="1016" y2="576" stroke="#2a313b"/>
+  <text x="48" y="598" fill="#6f7b8b" font-family="Segoe UI, sans-serif" font-size="11">规范由 5 个工具支撑：oo_spec_search / oo_spec_read / oo_gate_check / oo_ask_plan / oo_spec_anchor</text>
+</svg>
